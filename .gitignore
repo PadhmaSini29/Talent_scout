@@ -1,0 +1,20 @@
+@"
+# Python builds/caches
+__pycache__/
+*.pyc
+
+# Virtual env
+.venv/
+
+# Secrets
+.env
+.streamlit/secrets.toml
+
+# Local data (CSV created at runtime)
+data/
+
+# OS/IDE
+.DS_Store
+Thumbs.db
+.vscode/
+"@ | Set-Content -Encoding utf8 .gitignore
